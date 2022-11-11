@@ -1,0 +1,14 @@
+language: rust
+rust:
+  - stable
+  - beta
+  - nightly
+
+branches:
+  only:
+  - master
+  - staging
+  - trying
+
+notifications:
+  email: false
